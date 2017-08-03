@@ -124,6 +124,29 @@ body {
   height: 30px;
   padding: 65px 25px;
 }
+@media screen and (max-width: 1020px) {
+  .about {
+    display: block;
+  }
+  .about__item {
+    width: 100%;
+    padding: 35px 0px;
+  }
+  .about__item img,
+  .about__item p,
+  .about__item h2 {
+    margin: 4px;
+  }
+  .about__other {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .about__icon {
+    display: block;
+    position: relative;
+    left: 10;
+  }
+}
 .counters {
   display: flex;
   justify-content: center;
