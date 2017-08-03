@@ -1,0 +1,62 @@
+.header{
+    position: relative;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    background: rgba(255,255,255, 0.1);
+    
+    &__info{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        right: 17%;
+        
+        a,p{
+            margin: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            font-weight: 100;
+            font-size: 10px;
+        }
+        
+        a:hover{
+            color: #ff6633;
+            transition: 1s;
+        }
+            
+        span{
+            color: #ff6633
+        }
+    
+    }
+    
+    &__menu{
+        display: flex;
+        justify-content: flex-end;
+        
+        i{
+            position: relative;
+            top: 10px;
+            right: 40px;
+            color: #ff6633;
+        }
+    }
+    
+      @media screen and (max-width: 480px){
+            
+            &__info{
+                display: block; 
+                position: relative;
+                right:40%;
+                
+                a,p{
+                    margin: 0;
+                }
+            }
+            }
+}
+
