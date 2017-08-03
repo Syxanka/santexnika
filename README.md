@@ -5,4 +5,4 @@
 >Less<br>
 >Бэм<br>
 
-<"https://syxanka.github.io/santexnika/">
+https://syxanka.github.io/santexnika/
