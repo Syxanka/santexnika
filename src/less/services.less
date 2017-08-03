@@ -35,6 +35,7 @@
         p{
             font-weight: lighter;
             font-size: 14px;
+//            text-align: justify;
         }
             
         img{
@@ -43,4 +44,28 @@
         }
       
 }
+}
+
+@media screen and (max-width: 1020px){
+    .services{
+        display: block;
+        
+        &__img img{
+            width: 100%;
+            height: auto;
+            margin: 0px;
+        }
+    
+    
+        &__box{
+position: absolute; 
+        } 
+        
+        &__box-item{
+            margin: 10px;
+        }
+    
+    }
+    
+    
 }

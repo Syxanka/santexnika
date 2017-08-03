@@ -1,6 +1,7 @@
 .counters{
     display: flex;
     justify-content: center;
+//    flex-wrap: wrap;
     padding: 30px;
     
     &__box{
@@ -23,3 +24,15 @@
         letter-spacing: 1px;
     }
 }
+    
+    
+ @media screen and (max-width: 480px)
+              {
+                  .counters{
+                      display: block;
+                      
+                      &__box{
+                          margin: 20px;
+                      }
+                  }
+              }

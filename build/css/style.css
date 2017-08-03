@@ -168,6 +168,14 @@ body {
   font-size: 13px;
   letter-spacing: 1px;
 }
+@media screen and (max-width: 480px) {
+  .counters {
+    display: block;
+  }
+  .counters__box {
+    margin: 20px;
+  }
+}
 .services {
   margin-bottom: 60px;
   display: flex;
@@ -204,6 +212,22 @@ body {
 }
 .services__box-item img {
   height: 25px;
+}
+@media screen and (max-width: 1020px) {
+  .services {
+    display: block;
+  }
+  .services__img img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  .services__box {
+    position: absolute;
+  }
+  .services__box-item {
+    margin: 10px;
+  }
 }
 .box {
   background-color: #f0f3f2;
