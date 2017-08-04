@@ -58,7 +58,7 @@
 body {
   margin: 0;
   padding: 0;
-  max-width: 3000px;
+  max-width: 100%;
   font-family: 'Roboto-Light';
 }
 .main {
@@ -226,8 +226,12 @@ body {
     position: absolute;
   }
   .services__box-item {
-    margin: 10px;
+    margin: 5px;
   }
+  .services__box-p{
+    position: relative;
+    right: 10%;
+    }
 }
 .box {
   background-color: #f0f3f2;
@@ -250,7 +254,7 @@ body {
   z-index: 2;
   background-color: #f0f3f2;
   width: 230px;
-  height: 70%;
+  height: 90%;
   right: 0;
 }
 .menu i {
